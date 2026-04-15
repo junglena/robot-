@@ -1,0 +1,6 @@
+Invoking command in '/home/jungle/ros_cpp/chapt6_ws/build/bot_desc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jungle/ros_cpp/chapt6_ws/src/bot_desc -DCMAKE_INSTALL_PREFIX=/home/jungle/ros_cpp/chapt6_ws/install/bot_desc
+Invoked command in '/home/jungle/ros_cpp/chapt6_ws/build/bot_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jungle/ros_cpp/chapt6_ws/src/bot_desc -DCMAKE_INSTALL_PREFIX=/home/jungle/ros_cpp/chapt6_ws/install/bot_desc
+Invoking command in '/home/jungle/ros_cpp/chapt6_ws/build/bot_desc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jungle/ros_cpp/chapt6_ws/build/bot_desc -- -j8 -l8
+Invoked command in '/home/jungle/ros_cpp/chapt6_ws/build/bot_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jungle/ros_cpp/chapt6_ws/build/bot_desc -- -j8 -l8
+Invoking command in '/home/jungle/ros_cpp/chapt6_ws/build/bot_desc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jungle/ros_cpp/chapt6_ws/build/bot_desc
+Invoked command in '/home/jungle/ros_cpp/chapt6_ws/build/bot_desc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jungle/ros_cpp/chapt6_ws/build/bot_desc
