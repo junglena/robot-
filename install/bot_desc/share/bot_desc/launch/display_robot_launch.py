@@ -19,7 +19,7 @@ def generate_launch_description():
         executable='robot_state_publisher',
         name='robot_state_publisher_node',
         parameters=[{
-            'robot_description': launch.substitutions.Command(['cat ', launch.substitutions.LaunchConfiguration('model')])
+            'robot_description': launch.substitutions.Command(['xacro ', launch.substitutions.LaunchConfiguration('model')])
         }]
     )
 

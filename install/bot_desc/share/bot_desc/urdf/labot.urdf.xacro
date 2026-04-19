@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="labot">
+
+    <!--包含身体部件的xacro文件-->
+    <xacro:include filename="$(find bot_desc)/urdf/base.urdf.xacro"/>
+    <!--包含激光雷达部件的xacro文件-->
+    <xacro:include filename="$(find bot_desc)/urdf/sensor/laser.urdf.xacro"/>
+    <!--包含IMU部件的xacro文件-->
+    <xacro:include filename="$(find bot_desc)/urdf/sensor/imu.urdf.xacro"/>
+    <!--包含相机部件的xacro文件-->
+    <xacro:include filename="$(find bot_desc)/urdf/sensor/camera.urdf.xacro"/>
+
+    <!--使用宏来实例化身体和传感器部件，并设置它们的位置参数-->
+    <xacro:base_macro length="0.12" radius="0.1"/>
+    <xacro:laser_macro xyz="0.0 0.0 0.15"/>
+    <xacro:imu_macro xyz="0.0 0.0 0.1"/>
+    <xacro:camera_macro xyz="0.05 0.0 0.1"/>
+
+</robot>

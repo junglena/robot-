@@ -2,6 +2,14 @@
 /home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/launch/__pycache__/display_robot_launch.cpython-310.pyc
 /home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/first_robot.urdf
 /home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/first_robot.pdf
+/home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/first_robot.xacro
+/home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/mybot/labot.urdf.xacro
+/home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/mybot/actor/caster.urdf.xacro
+/home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/mybot/actor/wheel.urdf.xacro
+/home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/mybot/base.urdf.xacro
+/home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/mybot/sensor/laser.urdf.xacro
+/home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/mybot/sensor/camera.urdf.xacro
+/home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/mybot/sensor/imu.urdf.xacro
 /home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/first_robot.gv
 /home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/config/display_robot_model.rviz
 /home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/ament_index/resource_index/package_run_dependencies/bot_desc
