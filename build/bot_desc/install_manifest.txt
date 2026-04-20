@@ -3,6 +3,7 @@
 /home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/first_robot.urdf
 /home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/first_robot.pdf
 /home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/first_robot.xacro
+/home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/sensor/laser.urdf.xacro
 /home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/mybot/labot.urdf.xacro
 /home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/mybot/actor/caster.urdf.xacro
 /home/jungle/ros_cpp/chapt6_ws/install/bot_desc/share/bot_desc/urdf/mybot/actor/wheel.urdf.xacro
