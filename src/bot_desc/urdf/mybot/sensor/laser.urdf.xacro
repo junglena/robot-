@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-
+    <xacro:include filename="$(find bot_desc)/urdf/mybot/common_inertia.xacro"/>
     <xacro:macro name ="laser_xacro" params="xyz">
     <!--雷达支撑杆-->
         <link name="laser_cylinder_link">

@@ -35,6 +35,7 @@ def generate_launch_description():
         executable='rviz2',
         arguments=['-d', default_rviz_config_path]
     )
+    
 
     return launch.LaunchDescription([
         action_declare_arg_mode_path,
