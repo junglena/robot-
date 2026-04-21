@@ -1,1 +1,26 @@
-/home/jungle/ros_cpp/robot-/src/bot_desc/urdf/mybot/labot.urdf.xacro
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="labot">
+
+    <!--包含身体部件的xacro文件-->
+    <xacro:include filename="$(find bot_desc)/urdf/mybot/base.urdf.xacro"/>
+    <!--包含激光雷达部件的xacro文件-->
+    <xacro:include filename="$(find bot_desc)/urdf/mybot/sensor/laser.urdf.xacro"/>
+    <!--包含IMU部件的xacro文件-->
+    <xacro:include filename="$(find bot_desc)/urdf/mybot/sensor/imu.urdf.xacro"/>
+    <!--包含相机部件的xacro文件-->
+    <xacro:include filename="$(find bot_desc)/urdf/mybot/sensor/camera.urdf.xacro"/>
+    <!--包含轮子部件的xacro文件-->
+    <xacro:include filename="$(find bot_desc)/urdf/mybot/actor/wheel.urdf.xacro"/>
+    <!--包含万向轮部件的xacro文件-->
+    <xacro:include filename="$(find bot_desc)/urdf/mybot/actor/caster.urdf.xacro"/>
+    <!--使用宏来实例化身体和传感器部件，并设置它们的位置参数-->
+    <xacro:base_xacro length="0.12" radius="0.1"/>
+    <xacro:laser_xacro xyz="0.0 0.0 0.10"/>
+    <xacro:imu_xacro xyz="0.0 0.0 0.02"/>
+    <xacro:camera_xacro xyz="0.1 0.0 0.075"/>
+    <xacro:wheel_xacro wheel_name="left_wheel" xyz="0 0.1 -0.06"/>
+    <xacro:wheel_xacro wheel_name="right_wheel" xyz="0 -0.1 -0.06"/>
+    <xacro:caster_xacro caster_name="front_caster" xyz="0.08 0.0 -0.076"/>
+    <xacro:caster_xacro caster_name="rear_caster" xyz="-0.08 0.0 -0.076"/>
+
+</robot>

@@ -22,6 +22,7 @@
                     <color rgba="1.0 1.0 0.0 0.8"/>
                 </material>
             </collision>
+            <xacro:sphere_inertia m="0.05" r="0.016"/>
         </link>
 
         <!--连接身体和轮子的关节-->

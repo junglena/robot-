@@ -22,6 +22,7 @@
                     <color rgba="0.0 1.0 0.0 0.5"/>
                 </material>
             </collision>
+            <xacro:box_inertia m="0.1" d="0.02" w="0.02" h="0.02"/>
         </link>
 
         <!--连接身体和相机的关节-->

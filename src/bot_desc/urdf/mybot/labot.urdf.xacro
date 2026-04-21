@@ -15,12 +15,12 @@
     <xacro:include filename="$(find bot_desc)/urdf/mybot/actor/caster.urdf.xacro"/>
     <!--使用宏来实例化身体和传感器部件，并设置它们的位置参数-->
     <xacro:base_xacro length="0.12" radius="0.1"/>
-    <xacro:laser_xacro xyz="0.0 0.0 0.02"/>
-    <xacro:imu_xacro xyz="0.10 0.0 0.075"/>
-    <xacro:camera_xacro xyz="0.0 0.0 0.1"/>
+    <xacro:laser_xacro xyz="0.0 0.0 0.10"/>
+    <xacro:imu_xacro xyz="0.0 0.0 0.02"/>
+    <xacro:camera_xacro xyz="0.1 0.0 0.075"/>
     <xacro:wheel_xacro wheel_name="left_wheel" xyz="0 0.1 -0.06"/>
     <xacro:wheel_xacro wheel_name="right_wheel" xyz="0 -0.1 -0.06"/>
     <xacro:caster_xacro caster_name="front_caster" xyz="0.08 0.0 -0.076"/>
-    <xacro:caster_xacro caster_name="rear_caster" xyz="0.08 -0.0 -0.076"/>
+    <xacro:caster_xacro caster_name="rear_caster" xyz="-0.08 0.0 -0.076"/>
 
 </robot>
