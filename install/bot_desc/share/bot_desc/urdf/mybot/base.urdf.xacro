@@ -30,7 +30,7 @@
                     </material>
             </collision>
             <!--部件的惯性描述-->
-            <xacro:cylinder_inertia m="1.0" r="${radius}" h="${length}"/>
+            <xacro:cylinder_inertia m="2.0" r="${radius}" h="${length}"/>
         </link>
         <joint name="joint_name" type="fixed">
             <parent link="base_footprint"/>
