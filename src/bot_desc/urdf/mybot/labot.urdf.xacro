@@ -14,8 +14,9 @@
     <!--包含万向轮部件的xacro文件-->
     <xacro:include filename="$(find bot_desc)/urdf/mybot/actor/caster.urdf.xacro"/>
     <!--插件-->
-    <xacro:include filename="$(find bot_desc)/urdf/mybot/plugins/gazebo_control_plugin.xacro"/>
+    <xacro:include filename="$(find bot_desc)/urdf/mybot/mybot_ros2_control.xacro"/>
     <xacro:include filename="$(find bot_desc)/urdf/mybot/plugins/gazebo_sensor_plugin.xacro"/>
+    
     <!--使用宏来实例化身体和传感器部件，并设置它们的位置参数-->
     <xacro:base_xacro length="0.12" radius="0.1"/>
     <xacro:laser_xacro xyz="0.0 0.0 0.10"/>
@@ -26,6 +27,6 @@
     <xacro:caster_xacro caster_name="front_caster" xyz="0.08 0.0 -0.076"/>
     <xacro:caster_xacro caster_name="rear_caster" xyz="-0.08 0.0 -0.076"/>
 
-    <xacro:gazebo_control_plugin />
+    <xacro:mybot_ros2_control />
     <xacro:gazebo_sensor_plugin />
 </robot>

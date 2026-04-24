@@ -17,7 +17,7 @@ def generate_launch_description():
     action_robot_state_publisher = launch_ros.actions.Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
-        name='robot_state_publisher_node',
+        name='robot_state_publisher',
         parameters=[{
             'robot_description': launch.substitutions.Command(['xacro ', launch.substitutions.LaunchConfiguration('model')])
         }]

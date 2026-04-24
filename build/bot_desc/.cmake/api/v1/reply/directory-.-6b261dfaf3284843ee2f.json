@@ -242,7 +242,7 @@
 			"destination" : "share/ament_index/resource_index/package_run_dependencies",
 			"paths" : 
 			[
-				"/home/jungle/ros_cpp/chapt6_ws/build/bot_desc/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bot_desc"
+				"/home/jungle/ros_cpp/robot-/build/bot_desc/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bot_desc"
 			],
 			"type" : "file"
 		},
@@ -252,7 +252,7 @@
 			"destination" : "share/ament_index/resource_index/parent_prefix_path",
 			"paths" : 
 			[
-				"/home/jungle/ros_cpp/chapt6_ws/build/bot_desc/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/bot_desc"
+				"/home/jungle/ros_cpp/robot-/build/bot_desc/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/bot_desc"
 			],
 			"type" : "file"
 		},
@@ -272,7 +272,7 @@
 			"destination" : "share/bot_desc/environment",
 			"paths" : 
 			[
-				"/home/jungle/ros_cpp/chapt6_ws/build/bot_desc/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+				"/home/jungle/ros_cpp/robot-/build/bot_desc/ament_cmake_environment_hooks/ament_prefix_path.dsv"
 			],
 			"type" : "file"
 		},
@@ -292,7 +292,7 @@
 			"destination" : "share/bot_desc/environment",
 			"paths" : 
 			[
-				"/home/jungle/ros_cpp/chapt6_ws/build/bot_desc/ament_cmake_environment_hooks/path.dsv"
+				"/home/jungle/ros_cpp/robot-/build/bot_desc/ament_cmake_environment_hooks/path.dsv"
 			],
 			"type" : "file"
 		},
@@ -302,7 +302,7 @@
 			"destination" : "share/bot_desc",
 			"paths" : 
 			[
-				"/home/jungle/ros_cpp/chapt6_ws/build/bot_desc/ament_cmake_environment_hooks/local_setup.bash"
+				"/home/jungle/ros_cpp/robot-/build/bot_desc/ament_cmake_environment_hooks/local_setup.bash"
 			],
 			"type" : "file"
 		},
@@ -312,7 +312,7 @@
 			"destination" : "share/bot_desc",
 			"paths" : 
 			[
-				"/home/jungle/ros_cpp/chapt6_ws/build/bot_desc/ament_cmake_environment_hooks/local_setup.sh"
+				"/home/jungle/ros_cpp/robot-/build/bot_desc/ament_cmake_environment_hooks/local_setup.sh"
 			],
 			"type" : "file"
 		},
@@ -322,7 +322,7 @@
 			"destination" : "share/bot_desc",
 			"paths" : 
 			[
-				"/home/jungle/ros_cpp/chapt6_ws/build/bot_desc/ament_cmake_environment_hooks/local_setup.zsh"
+				"/home/jungle/ros_cpp/robot-/build/bot_desc/ament_cmake_environment_hooks/local_setup.zsh"
 			],
 			"type" : "file"
 		},
@@ -332,7 +332,7 @@
 			"destination" : "share/bot_desc",
 			"paths" : 
 			[
-				"/home/jungle/ros_cpp/chapt6_ws/build/bot_desc/ament_cmake_environment_hooks/local_setup.dsv"
+				"/home/jungle/ros_cpp/robot-/build/bot_desc/ament_cmake_environment_hooks/local_setup.dsv"
 			],
 			"type" : "file"
 		},
@@ -342,7 +342,7 @@
 			"destination" : "share/bot_desc",
 			"paths" : 
 			[
-				"/home/jungle/ros_cpp/chapt6_ws/build/bot_desc/ament_cmake_environment_hooks/package.dsv"
+				"/home/jungle/ros_cpp/robot-/build/bot_desc/ament_cmake_environment_hooks/package.dsv"
 			],
 			"type" : "file"
 		},
@@ -352,7 +352,7 @@
 			"destination" : "share/ament_index/resource_index/packages",
 			"paths" : 
 			[
-				"/home/jungle/ros_cpp/chapt6_ws/build/bot_desc/ament_cmake_index/share/ament_index/resource_index/packages/bot_desc"
+				"/home/jungle/ros_cpp/robot-/build/bot_desc/ament_cmake_index/share/ament_index/resource_index/packages/bot_desc"
 			],
 			"type" : "file"
 		},
@@ -362,8 +362,8 @@
 			"destination" : "share/bot_desc/cmake",
 			"paths" : 
 			[
-				"/home/jungle/ros_cpp/chapt6_ws/build/bot_desc/ament_cmake_core/bot_descConfig.cmake",
-				"/home/jungle/ros_cpp/chapt6_ws/build/bot_desc/ament_cmake_core/bot_descConfig-version.cmake"
+				"/home/jungle/ros_cpp/robot-/build/bot_desc/ament_cmake_core/bot_descConfig.cmake",
+				"/home/jungle/ros_cpp/robot-/build/bot_desc/ament_cmake_core/bot_descConfig-version.cmake"
 			],
 			"type" : "file"
 		},
