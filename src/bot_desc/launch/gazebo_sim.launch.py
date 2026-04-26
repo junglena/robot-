@@ -7,7 +7,7 @@ def generate_launch_description():
     urdf_package_path = os.path.join(get_package_share_directory('bot_desc'))
     default_xacro_path = os.path.join(urdf_package_path, 'urdf', 'mybot/labot.urdf.xacro')
     default_gazebo_world_path=os.path.join(urdf_package_path,'world','custom_room.world')
-    #声明一个urdf目录的参数，方便修改
+    #声明一个urdf目录的参数方便修改
     action_declare_arg_mode_path=launch.actions.DeclareLaunchArgument(
         'model',
         default_value=default_xacro_path,
@@ -39,9 +39,37 @@ def generate_launch_description():
         ],
         output='screen'
     )
+
+    action_load_joint_state_controller = launch.actions.ExecuteProcess(
+        cmd='ros2 control load_controller mybot_joint_state_broadcaster --set-state active'.split(' '),
+        output='screen'
+    )
+
+    action_load_effort_controller = launch.actions.ExecuteProcess(
+        cmd='ros2 control load_controller mybot_effort_controller --set-state active'.split(' '),
+        output='screen'
+    )
+
+    action_load_diff_drive_controller = launch.actions.ExecuteProcess(
+        cmd='ros2 control load_controller mybot_diff_drive_controller --set-state active'.split(' '),
+        output='screen'
+    )
     return launch.LaunchDescription([
         action_declare_arg_mode_path,
         action_robot_state_publisher,
         action_launch_gazebo,
-        action_spawn_entity
+        action_spawn_entity,
+        launch.actions.RegisterEventHandler(
+            event_handler=launch.event_handlers.OnProcessExit(
+                target_action=action_spawn_entity,
+                on_exit=[action_load_joint_state_controller]
+            )
+        ),
+        launch.actions.RegisterEventHandler(
+            event_handler=launch.event_handlers.OnProcessExit(
+                target_action=action_load_joint_state_controller,
+                on_exit=[action_load_effort_controller]
+            )
+        ),
+
     ])

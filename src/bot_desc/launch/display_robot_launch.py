@@ -7,7 +7,7 @@ def generate_launch_description():
     urdf_package_path = os.path.join(get_package_share_directory('bot_desc'))
     urdf_path = os.path.join(urdf_package_path, 'urdf', 'first_robot.urdf')
     default_rviz_config_path = os.path.join(urdf_package_path, 'config', 'display_robot_model.rviz')
-    #声明一个urdf目录的参数，方便修改
+    #声明一个urdf目录的参数方便修改
     action_declare_arg_mode_path=launch.actions.DeclareLaunchArgument(
         'model',
         default_value=urdf_path,
@@ -29,7 +29,7 @@ def generate_launch_description():
     )
 
 
-    # 启动rviz2，并加载配置文件
+    # 启动rviz2并加载配置文件
     action_rviz_node = launch_ros.actions.Node(
         package='rviz2',
         executable='rviz2',

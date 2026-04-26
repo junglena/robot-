@@ -1,2 +1,1 @@
-source;share/bot_desc/environment/ament_prefix_path.sh
-source;share/bot_desc/environment/path.sh
+/home/jungle/ros_cpp/robot-/robot-/build/bot_desc/ament_cmake_environment_hooks/local_setup.dsv
