@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jungle/ros_cpp/robot-/robot-/src/bot_desc
+CMAKE_SOURCE_DIR = /home/jungle/ros_cpp/robot-/src/bot_desc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jungle/ros_cpp/robot-/robot-/build/bot_desc
+CMAKE_BINARY_DIR = /home/jungle/ros_cpp/robot-/build/bot_desc
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/jungle/ros_cpp/robot-/robot-/build/bot_desc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jungle/ros_cpp/robot-/robot-/src/bot_desc /home/jungle/ros_cpp/robot-/robot-/src/bot_desc /home/jungle/ros_cpp/robot-/robot-/build/bot_desc /home/jungle/ros_cpp/robot-/robot-/build/bot_desc /home/jungle/ros_cpp/robot-/robot-/build/bot_desc/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jungle/ros_cpp/robot-/build/bot_desc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jungle/ros_cpp/robot-/src/bot_desc /home/jungle/ros_cpp/robot-/src/bot_desc /home/jungle/ros_cpp/robot-/build/bot_desc /home/jungle/ros_cpp/robot-/build/bot_desc /home/jungle/ros_cpp/robot-/build/bot_desc/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

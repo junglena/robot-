@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jungle/ros_cpp/robot-/robot-/src/bot_desc
+CMAKE_SOURCE_DIR = /home/jungle/ros_cpp/robot-/src/bot_desc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jungle/ros_cpp/robot-/robot-/build/bot_desc
+CMAKE_BINARY_DIR = /home/jungle/ros_cpp/robot-/build/bot_desc
 
 # Utility rule file for bot_desc_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/bot_desc_uninstall.dir/compiler_depend.make
 include CMakeFiles/bot_desc_uninstall.dir/progress.make
 
 CMakeFiles/bot_desc_uninstall:
-	/usr/bin/cmake -P /home/jungle/ros_cpp/robot-/robot-/build/bot_desc/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/jungle/ros_cpp/robot-/build/bot_desc/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 bot_desc_uninstall: CMakeFiles/bot_desc_uninstall
 bot_desc_uninstall: CMakeFiles/bot_desc_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/bot_desc_uninstall.dir/clean:
 .PHONY : CMakeFiles/bot_desc_uninstall.dir/clean
 
 CMakeFiles/bot_desc_uninstall.dir/depend:
-	cd /home/jungle/ros_cpp/robot-/robot-/build/bot_desc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jungle/ros_cpp/robot-/robot-/src/bot_desc /home/jungle/ros_cpp/robot-/robot-/src/bot_desc /home/jungle/ros_cpp/robot-/robot-/build/bot_desc /home/jungle/ros_cpp/robot-/robot-/build/bot_desc /home/jungle/ros_cpp/robot-/robot-/build/bot_desc/CMakeFiles/bot_desc_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jungle/ros_cpp/robot-/build/bot_desc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jungle/ros_cpp/robot-/src/bot_desc /home/jungle/ros_cpp/robot-/src/bot_desc /home/jungle/ros_cpp/robot-/build/bot_desc /home/jungle/ros_cpp/robot-/build/bot_desc /home/jungle/ros_cpp/robot-/build/bot_desc/CMakeFiles/bot_desc_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bot_desc_uninstall.dir/depend
 

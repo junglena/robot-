@@ -1,0 +1,77 @@
+[0.029s] Invoking command in '/home/jungle/ros_cpp/robot-/build/bot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jungle/ros_cpp/robot-/src/bot_desc -DCMAKE_INSTALL_PREFIX=/home/jungle/ros_cpp/robot-/install/bot_desc
+[0.567s] -- The C compiler identification is GNU 11.4.0
+[0.898s] -- The CXX compiler identification is GNU 11.4.0
+[0.930s] -- Detecting C compiler ABI info
+[1.159s] -- Detecting C compiler ABI info - done
+[1.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.172s] -- Detecting C compile features
+[1.174s] -- Detecting C compile features - done
+[1.184s] -- Detecting CXX compiler ABI info
+[1.418s] -- Detecting CXX compiler ABI info - done
+[1.422s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.424s] -- Detecting CXX compile features
+[1.424s] -- Detecting CXX compile features - done
+[1.435s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.713s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.955s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.131s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.135s] -- Added test 'lint_cmake' to check CMake code style
+[2.141s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.165s] -- Added test 'xmllint' to check XML markup files
+[2.169s] -- Configuring done
+[2.176s] -- Generating done
+[2.179s] -- Build files have been written to: /home/jungle/ros_cpp/robot-/build/bot_desc
+[2.191s] Invoked command in '/home/jungle/ros_cpp/robot-/build/bot_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jungle/ros_cpp/robot-/src/bot_desc -DCMAKE_INSTALL_PREFIX=/home/jungle/ros_cpp/robot-/install/bot_desc
+[2.196s] Invoking command in '/home/jungle/ros_cpp/robot-/build/bot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jungle/ros_cpp/robot-/build/bot_desc -- -j8 -l8
+[2.306s] Invoked command in '/home/jungle/ros_cpp/robot-/build/bot_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jungle/ros_cpp/robot-/build/bot_desc -- -j8 -l8
+[2.341s] Invoking command in '/home/jungle/ros_cpp/robot-/build/bot_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jungle/ros_cpp/robot-/build/bot_desc
+[2.371s] -- Install configuration: ""
+[2.372s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/launch
+[2.372s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/launch/display_robot_launch.py
+[2.373s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/launch/gazebo_sim.launch.py
+[2.373s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/launch/__pycache__
+[2.373s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/launch/__pycache__/display_robot_launch.cpython-310.pyc
+[2.373s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf
+[2.373s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/first_robot.urdf
+[2.373s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/first_robot.pdf
+[2.375s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/first_robot.xacro
+[2.376s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot
+[2.377s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/labot.urdf.xacro
+[2.377s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/actor
+[2.377s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/actor/caster.urdf.xacro
+[2.378s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/actor/wheel.urdf.xacro
+[2.379s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/base.urdf.xacro
+[2.381s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/mybot_ros2_control.xacro
+[2.382s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/plugins
+[2.383s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/plugins/gazebo_control_plugin.xacro
+[2.386s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/plugins/gazebo_sensor_plugin.xacro
+[2.387s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/sensor
+[2.388s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/sensor/laser.urdf.xacro
+[2.388s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/sensor/camera.urdf.xacro
+[2.389s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/sensor/imu.urdf.xacro
+[2.390s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/mybot/common_inertia.xacro
+[2.392s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/urdf/first_robot.gv
+[2.396s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/config
+[2.396s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/config/display_robot_model.rviz
+[2.397s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/config/mybot_ros2_controller.yaml
+[2.397s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/world
+[2.397s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/world/custom_room.world
+[2.398s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/world/room
+[2.398s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/world/room/model.sdf
+[2.399s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/world/room/model.config
+[2.400s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/ament_index/resource_index/package_run_dependencies/bot_desc
+[2.400s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/ament_index/resource_index/parent_prefix_path/bot_desc
+[2.401s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/environment/ament_prefix_path.sh
+[2.401s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/environment/ament_prefix_path.dsv
+[2.401s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/environment/path.sh
+[2.401s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/environment/path.dsv
+[2.402s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/local_setup.bash
+[2.402s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/local_setup.sh
+[2.403s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/local_setup.zsh
+[2.403s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/local_setup.dsv
+[2.403s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/package.dsv
+[2.404s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/ament_index/resource_index/packages/bot_desc
+[2.404s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/cmake/bot_descConfig.cmake
+[2.404s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/cmake/bot_descConfig-version.cmake
+[2.405s] -- Installing: /home/jungle/ros_cpp/robot-/install/bot_desc/share/bot_desc/package.xml
+[2.409s] Invoked command in '/home/jungle/ros_cpp/robot-/build/bot_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jungle/ros_cpp/robot-/build/bot_desc
